@@ -38,21 +38,21 @@ export default {
           // url: "../assets/a.jpg",
           url: imgUrl,
           content:
-            "today,with mili to the sea;she has a little afraid;but later she comes to like the sea"
+            "today,is a good day"
         },
         {
           id: 2,
           time: "2012-03-03 21:00:00",
           url: imgUrl,
           content:
-            "today,with mili to the sea;she has a little afraid;but later she comes to like the sea"
+            "today,is a good day"
         },
         {
           id: 3,
           time: "2012-03-03 21:00:00",
           url: imgUrl,
           content:
-            "today,with mili to the sea;she has a little afraid;but later she comes to like the sea"
+            "today,is a good day"
         }
       ]
     };

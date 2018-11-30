@@ -20,7 +20,7 @@ export default {
   data() {
     return {
       msg: "baby description",
-      userData: { name: "xiaomili", sex: 0, bornDate: "2017-03-01", photo: "" }
+      userData: { name: "xiaomi", sex: 0, bornDate: "2018-01-01", photo: "" }
     };
   },
 
