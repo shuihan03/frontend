@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    
     <router-view/>
 
-     <!--底部导航 路由 -->
-            <footer class="app-footer">
-                <wx-nav></wx-nav>
-            </footer>
+    <!--底部导航 路由 -->
+    <footer class="app-footer">
+      <wx-nav></wx-nav>
+       <!-- <nav-mint></nav-mint> -->
+    </footer>
   </div>
 </template>
 
 <script>
 import WxNav from "./components/wx-nav";
+// import WxNavNew from "./components/nav-mint";
 export default {
   //加入搜索历史记录
   //或者时间选择框，选择一段时间的
@@ -19,9 +20,6 @@ export default {
   name: "App",
   components: {
     WxNav
-
-
-    
   }
 };
 </script>
@@ -41,5 +39,8 @@ export default {
   width: 100%;
   height: 3rem;
   background: #26a2ff;
+}
+body{
+  margin: 0px;
 }
 </style>

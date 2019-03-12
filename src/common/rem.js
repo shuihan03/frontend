@@ -1,5 +1,5 @@
 /**
- * Created by zhaolele on 2018/7/25.
+ * Created by shuihan on 2018/7/25.
  */
 (function(doc, win) {
   var docEl = doc.documentElement,

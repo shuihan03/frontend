@@ -7,6 +7,7 @@
        
         <div>{{list[index].content}}</div>
         <img :src="list[index].url"/>
+        <!-- <img src="../assets/a.jpg"/> -->
         <div><div class="time" v-text="list[index].time"></div></div>
         </li>
     </ul>
